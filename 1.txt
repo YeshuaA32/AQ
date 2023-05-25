@@ -1,0 +1,18 @@
+EntityframeworkCore.Tools
+EntityframeworkCore.SqlServer
+
+
+Scaffold-DbContext "Server=localhost\SQLEXPRESS;Database=Aquasistemas;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+Asp.NetCore // Netcore MVC // EntityFramework
+
+se utiliza LinQ para la manipulacion de datos.
+
+PASOS
+1. Instalar las dos librerias en NUGET
+2. Escribir el comando para conectar a la base de datos (scaffold)
+3. En context documentar el OnConfiguring
+4. Agregar connection string en appsetting.json
+5. Agregar conecion en Program.cs
+6. Crear el controlador de producto
